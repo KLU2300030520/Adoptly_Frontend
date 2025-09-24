@@ -20,7 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* 👇 Important: tell React Router the app is hosted under /adoptly */}
-    <Router basename="/adoptly">
+    <Router basename="/Adoptly">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/home" element={<Home />} />
