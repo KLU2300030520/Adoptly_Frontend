@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/adoptly/',   // important for Tomcat
+  base: '/Adoptly/',   // important for Tomcat
 })
